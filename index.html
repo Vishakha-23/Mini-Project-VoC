@@ -16,6 +16,8 @@
     - custom css link
   -->
   <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="./assets/css/emailBtn.css">
+
 
   <!-- 
     - google font link
@@ -46,11 +48,7 @@
           </li>
 
           <li>
-            <a href="#service" class="navbar-link" data-nav-link>Services</a>
-          </li>
-
-          <li>
-            <a href="#project" class="navbar-link" data-nav-link>Project</a>
+            <a href="#project" class="navbar-link" data-nav-link>Portfolio</a>
           </li>
 
           <li>
@@ -62,7 +60,7 @@
           </li>
 
           <li>
-            <a href="#" class="btn btn-primary">Get Started</a>
+            <a href="#emailForm" class="btn btn-primary">Get Started</a>
           </li>
 
         </ul>
@@ -100,145 +98,19 @@
               Professional Video Editing & Social Media Solutions for Modern Brands.
             </p>
 
-            <a href="#" class="btn btn-primary">Get Started</a>
+            <form id="emailForm">
+            <input type="email" class="Email_coll" id="email" placeholder="Enter your email" required>
+            <button class="btn btn-primary" type=" submit">Subscribe</button>
+        </form>
+            
+
+
 
           </div>
 
           <figure class="hero-banner">
             <img src="./assets/images/hero-banner.png" width="720" height="673" alt="hero banner" class="w-100">
           </figure>
-
-        </div>
-      </section>
-
-
-
-
-
-      <!-- 
-        - #SERVICE
-      -->
-
-      <section class="section service" id="service" aria-label="service">
-        <div class="container">
-
-          <h2 class="h2 section-title">Services We Provided</h2>
-
-          <p class="section-text">
-            The services we offer are designed to help businesses and individuals create compelling video content.
-          </p>
-
-          <ul class="grid-list">
-
-            <li>
-              <div class="service-card">
-
-                <div class="card-icon" style="background-color: #13c4a1">
-                  <ion-icon name="chatbox"></ion-icon>
-                </div>
-
-                <h3 class="h3">
-                  <a href="#" class="card-title">Short-form Videos</a>
-                </h3>
-
-                <p class="card-text">
-                  Engaging, fast-paced vertical videos crafted to capture attention within seconds. Perfect for Reels, Shorts, and TikTok to boost reach and brand recall.
-                </p>
-
-              </div>
-            </li>
-
-            <li>
-              <div class="service-card">
-
-                <div class="card-icon" style="background-color: #6610f2">
-                  <ion-icon name="desktop"></ion-icon>
-                </div>
-
-                <h3 class="h3">
-                  <a href="#" class="card-title">Long-form Videos</a>
-                </h3>
-
-                <p class="card-text">
-                  High-quality storytelling videos designed for YouTube and branded content. Ideal for educating, entertaining, or building deeper audience connection.
-                </p>
-
-              </div>
-            </li>
-
-            <li>
-              <div class="service-card">
-
-                <div class="card-icon" style="background-color: #ffb700">
-                  <ion-icon name="bulb"></ion-icon>
-                </div>
-
-                <h3 class="h3">
-                  <a href="#" class="card-title">Gaming Videos</a>
-                </h3>
-
-                <p class="card-text">
-                  Dynamic edits with immersive effects, transitions, and sound design tailored for gaming creators. Built to highlight gameplay, reactions, and high-energy moments.
-                </p>
-
-              </div>
-            </li>
-
-            <li>
-              <div class="service-card">
-
-                <div class="card-icon" style="background-color: #fc3549">
-                  <ion-icon name="phone-portrait"></ion-icon>
-                </div>
-
-                <h3 class="h3">
-                  <a href="#" class="card-title">eCommerce ads</a>
-                </h3>
-
-                <p class="card-text">
-                  Conversion-focused ad videos optimized for Meta, Google, and Amazon. Showcases product benefits clearly to drive clicks, sales, and ROAS.
-                </p>
-
-              </div>
-            </li>
-
-            <li>
-              <div class="service-card">
-
-                <div class="card-icon" style="background-color: #00d280">
-                  <ion-icon name="archive"></ion-icon>
-                </div>
-
-                <h3 class="h3">
-                  <a href="#" class="card-title">Documentary style Videos</a>
-                </h3>
-
-                <p class="card-text">
-                  Authentic, story-driven videos capturing real experiences and brand journeys. Perfect for founders’ stories, BTS, testimonials, and brand narratives.
-                </p>
-
-              </div>
-            </li>
-
-            <li>
-              <div class="service-card">
-
-                <div class="card-icon" style="background-color: #ff612f">
-                  <ion-icon name="build"></ion-icon>
-                </div>
-
-                <h3 class="h3">
-                  <a href="#" class="card-title">Color Grading</a>
-                </h3>
-
-                <p class="card-text">
-                  Professional color enhancement to elevate mood, tone, and cinematic feel. Ensures visual consistency and premium quality across all your content.
-                </p>
-
-              </div>
-            </li>
-
-          </ul>
 
         </div>
       </section>
@@ -257,7 +129,8 @@
           <h2 class="h2 section-title">Our Recent Projects</h2>
 
           <p class="section-text">
-            Have a look at some of our recent projects that showcase our expertise and creativity in video editing and marketing.
+            Have a look at some of our recent projects that showcase our expertise and creativity in video editing and
+            marketing.
           </p>
 
           <ul class="grid-list">
@@ -268,7 +141,8 @@
                 <figure class="card-banner img-holder" style="--width: 510; --height: 700;">
                   <!-- <img src="./assets/images/project-1.jpg" width="510" height="700" loading="lazy"
                     alt="Designing a better cinema experience" class="img-cover"> -->
-                    <video src="./assets/videos/4291850-hd_1920_1080_30fps.mp4" width="510" height="700" class="img-cover video-play" autoplay muted ></video>
+                  <video src="./assets/videos/4291850-hd_1920_1080_30fps.mp4" width="510" height="700"
+                    class="img-cover video-play" autoplay muted></video>
                 </figure>
 
                 <div class="card-content">
@@ -313,7 +187,8 @@
               <div class="project-card">
 
                 <figure class="card-banner img-holder" style="--width: 510; --height: 700;">
-                 <video src="./assets/videos/7914827-hd_1920_1080_30fps.mp4" width="510" height="700" class="img-cover video-play" autoplay muted ></video>
+                  <video src="./assets/videos/7914827-hd_1920_1080_30fps.mp4" width="510" height="700"
+                    class="img-cover video-play" autoplay muted></video>
                 </figure>
 
                 <div class="card-content">
@@ -430,7 +305,8 @@
             <h2 class="h2 section-title">About Us</h2>
 
             <p class="section-text">
-              We are a social media marketing agency dedicated to helping businesses grow their online presence and reach their target audience through effective social media strategies.
+              We are a social media marketing agency dedicated to helping businesses grow their online presence and
+              reach their target audience through effective social media strategies.
             </p>
 
             <h3 class="h3">Who We Are</h3>
@@ -666,6 +542,8 @@
     - custom js link
   -->
   <script src="./assets/js/script.js" defer></script>
+  <script src="./assets/js/info.js"></script>
+
 
   <!-- 
     - ionicon link

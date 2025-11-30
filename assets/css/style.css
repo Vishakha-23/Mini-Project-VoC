@@ -150,7 +150,9 @@ html {
 
 body {
     background-color: var(--white-1);
+    /* background-color: rgb(23, 20, 20); */
     color: var(--gray-web);
+    /* color: white; */
     font-size: 1.6rem;
     line-height: 1.8;
 }
@@ -424,7 +426,7 @@ body {
     background-color: var(--white-1);
     padding: 20px 15px;
     border: 1px solid var(--platinum);
-    border-radius: var(--radius-5);
+    border-radius: var(--radius-8);
     text-align: center;
     box-shadow: var(--shadow-1);
     transition: var(--transition-2);
@@ -1345,3 +1347,4 @@ textarea.input-field {
     cursor: pointer;
     
 }
+
